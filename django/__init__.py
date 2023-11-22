@@ -4,6 +4,9 @@ VERSION = (6, 0, 2, "final", 0)
 
 __version__ = get_version(VERSION)
 
+# Version based on django version with some changes
+__version__ = __version__ + ".1+pp"
+
 
 def setup(set_prefix=True):
     """
